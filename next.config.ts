@@ -1,6 +1,5 @@
 import type { NextConfig } from "next";
 import path from "node:path";
-import withPWA from "next-pwa";
 
 const LOADER = path.resolve(__dirname, 'src/visual-edits/component-tagger-loader.js');
 
@@ -27,21 +26,4 @@ const nextConfig: NextConfig = {
   }
 };
 
-export default withPWA({
-  dest: "public",
-  register: true,
-  skipWaiting: true,
-  disable: process.env.NODE_ENV === "development",
-  runtimeCaching: [
-    {
-      urlPattern: /^https?.*/,
-      handler: "NetworkFirst",
-      options: {
-        cacheName: "offlineCache",
-        expiration: {
-          maxEntries: 200,
-        },
-      },
-    },
-  ],
-})(nextConfig);
+export default nextConfig;
