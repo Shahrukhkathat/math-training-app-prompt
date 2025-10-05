@@ -1,0 +1,47 @@
+{
+  "name": "Math Training - Mental Calculation App",
+  "short_name": "Math Training",
+  "description": "Train your mental calculation skills with diverse time-bound challenges. Improve speed, accuracy, and cognitive agility in arithmetic and basic logic.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#87CEEB",
+  "theme_color": "#1E3A8A",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/eafc028f-a6b8-46de-ab8f-16d823869841/generated_images/app-icon-for-math-training-mobile-applic-5b8d9a06-20251005160619.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/eafc028f-a6b8-46de-ab8f-16d823869841/generated_images/app-icon-for-math-training-mobile-applic-5b8d9a06-20251005160619.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/eafc028f-a6b8-46de-ab8f-16d823869841/generated_images/large-app-icon-for-math-training-mobile--bc62d48c-20251005160627.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/eafc028f-a6b8-46de-ab8f-16d823869841/generated_images/large-app-icon-for-math-training-mobile--bc62d48c-20251005160627.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "games", "productivity"],
+  "screenshots": [
+    {
+      "src": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/eafc028f-a6b8-46de-ab8f-16d823869841/generated_images/large-app-icon-for-math-training-mobile--bc62d48c-20251005160627.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
